@@ -1,0 +1,7 @@
+#let python decide whether to do the thing
+
+import random
+if ramdom.radint(1,10) > 5:
+    print("do it")
+else:
+    print("don't do it")
