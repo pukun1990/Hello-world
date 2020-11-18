@@ -1,0 +1,17 @@
+workload = []
+membership = []
+total_money = input("enter the total money:")
+total_workload = sum(workload)
+each_share = [ x/total_workload for x in workload]
+
+def cal_each(money,share):
+    money_each = money * share
+    money_each = round(money_each, 2)
+    return money_each
+    
+def part_money(money,part):
+    money_part = money * part
+    money_part = round(money_part, 2)
+    return money_each
+    
+ 
